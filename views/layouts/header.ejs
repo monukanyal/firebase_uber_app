@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%- page_title %></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<style>
+	footer{
+	width:100%;
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	}
+	body{
+	min-height: 100%;
+	position: relative;
+	}
+	html{
+	height: 100%;
+	}
+	.custom_background{
+		background: #222;
+		color: #fff;
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+	}
+	.custom_background p{
+		text-align: center;
+	}
+	.custom_align{
+		text-align: center;
+		    color: #cdcdcd;
+    font-size: 20px;
+    padding: 11px 0px;
+	}
+	.custom_align p{
+		margin-bottom: 0px;
+	}
+	.custom_padding{
+		padding-bottom: 15%;
+
+	}
+	.custom_padding p{
+	background: #0077bf;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 15px;
+	}
+	.custom_padding p a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.custom_map_footer{
+		background: #0077bf;
+		color: #fff;
+	}
+	.custom_width:nth-child(4){ clear:both}
+	@media only screen and (max-width: 767px) {
+		.custom_padding{
+		padding-bottom: 55%;
+
+	}
+	.custom_width{
+		width: 100%;
+	}
+	}
+	@media only screen and (max-width: 420px) {
+		.custom_padding{
+		padding-bottom: 65%;
+
+	}
+	}
+</style>
+</head>
+<body id="body">
+<header>			
+<div class="navbar-inverse navbar-static-top custom_bg">
+	<div class="container-fluid">
+		
+		<a href="#" class="navbar-brand colr_brand"></a>
+		<div class="custom_align">
+				<p><%- sub_title %></p>
+			</div>
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right hover_efct">
+				<!-- 	<li class="active custom_text"><a href="#">America/Chicago</a></li> -->
+			
+				</ul>
+			</div>
+	</div>
+</div>
+</header>
